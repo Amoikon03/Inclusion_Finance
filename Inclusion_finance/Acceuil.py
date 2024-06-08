@@ -26,7 +26,7 @@ def paragraphe(texte):
 st.title("Inclusion Financière en Afrique")
 
 # Image illustrative de l'application
-image_with_caption("Inclusion-FINANCIERE.jpeg", " ")
+image_with_caption("Inclusion_finance/Inclusion-FINANCIERE.jpeg", " ")
 
 # Description de l'application
 paragraphe("""
