@@ -7,7 +7,7 @@ st.title("Les informations relatives à ces données")
 
 
 # Chargement de données du fichier csv
-df = pd.read_csv("Inclusion.csv")
+df = pd.read_csv("Inclusion_finance/Inclusion.csv")
 
 
 # Afficher les noms des données
