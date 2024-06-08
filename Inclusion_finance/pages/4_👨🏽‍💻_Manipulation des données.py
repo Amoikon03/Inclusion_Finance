@@ -7,7 +7,7 @@ def main():
     st.title("Manipulation Des Données")
 
     # Charger le fichier CSV
-    df = pd.read_csv("Inclusion.csv")
+    df = pd.read_csv("Inclusion_finance/Inclusion.csv")
 
     afficher_informations_generales(df)
     supprimer_doublons(df)
