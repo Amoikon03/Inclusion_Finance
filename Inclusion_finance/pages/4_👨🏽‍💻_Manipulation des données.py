@@ -77,7 +77,7 @@ def traiter_valeurs_manquantes(df):
     st.write("**Information**")
 
 def enregistrer_donnees_pretraitees(df):
-    df.to_pickle("Data_Frame.pkl")
+    df.to_pickle("Inclusion_finance/Data_Frame.pkl")
     # Charger une image depuis votre système de fichiers
     image_path = "Inclusion_finance/megaphone.jpg"
 
