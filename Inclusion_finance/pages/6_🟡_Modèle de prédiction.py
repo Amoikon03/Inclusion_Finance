@@ -106,7 +106,7 @@ st.write(" ")
 st.write(" ")
 
 # Charger le DataFrame à partir du fichier pickle
-data = load_dataframe("Data_Frame.pkl")
+data = load_dataframe("Inclusion_finance/Data_Frame.pkl")
 
 # Créer une colonne latérale pour les paramètres
 with st.sidebar:
