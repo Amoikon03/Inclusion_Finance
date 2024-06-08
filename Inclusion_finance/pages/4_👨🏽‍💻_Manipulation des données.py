@@ -79,7 +79,7 @@ def traiter_valeurs_manquantes(df):
 def enregistrer_donnees_pretraitees(df):
     df.to_pickle("Data_Frame.pkl")
     # Charger une image depuis votre système de fichiers
-    image_path = "mega.png"
+    image_path = "Inclusion_finance/megaphone.jpg"
 
     # Afficher l'image en arrière-plan
     # Redimensionner et afficher l'image en arrière-plan
