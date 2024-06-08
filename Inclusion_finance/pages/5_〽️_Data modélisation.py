@@ -22,7 +22,7 @@ def afficher_data_modelisation():
     st.title("Data Modélisation")
 
     # Chargement des données
-    df = pk.load(open("Data_Frame.pkl", "rb"))
+    df = pk.load(open("Inclusion_finance/Data_Frame.pkl", "rb"))
 
     # Créer un bouton pour afficher un message d'information
     if st.checkbox("**Cliquez ici pour masquer l'information**", value=True):
@@ -155,7 +155,7 @@ def afficher_data_modelisation():
             except Exception as e:
                 st.warning(f"La courbe de Précision Recall ne peut pas être représenté avec les données du modèle: {str(e)}")
 
-    # 3️⃣ Regression logistique
+    # 1️⃣ Regression logistique
     if model == "Regression logistique":
         st.sidebar.subheader("Les hyperparamètres du modéle")
 
@@ -191,7 +191,7 @@ def afficher_data_modelisation():
             # Afficher les graphiques de performances
             plot_perf(graphes_perf, model, x_test, y_test)
 
-    # 4️⃣ Random Forest
+    # 2️⃣ Random Forest
     elif model == "Random Forest":
         st.sidebar.subheader("Hyperparamètres pour le modèle Random Forest")
 
@@ -226,7 +226,7 @@ def afficher_data_modelisation():
             # Display performance graphs
             plot_perf(graphes_perf, model, x_test, y_test)
 
-    # 5️⃣ Support Vector Machin
+    #  Support Vector Machin
     #elif model == "Support Vecteur Machine":
         # st.sidebar.subheader("Les hyperparamètres du modéle")
 
